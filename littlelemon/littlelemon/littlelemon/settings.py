@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'restaurant',
     'restaurant_v1',
     'myproject',
-    'myapp'
+    'myapp',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'littlelemon_db',
+        'NAME': 'reservations',
         'USER': 'developer',
         'PASSWORD': "Can'tBugMySwag",
         'HOST': 'localhost',
